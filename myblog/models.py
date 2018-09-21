@@ -10,8 +10,6 @@ class User(models.Model):
     pass
     # 用户id
 
-    # 用户ip
-
     # 用户名
 
     # 用户密码
@@ -25,8 +23,6 @@ class User(models.Model):
     # 用户权限
 
     # 注册时间
-
-    # 用户生日
 
     # 用户手机号
 
@@ -43,6 +39,8 @@ class Articles(models.Model):
 
     # 博客标题
 
+    # 博客标签
+
     # 博客内容
 
     # 浏览量
@@ -51,5 +49,25 @@ class Articles(models.Model):
 
     # 发表日期
 
+    # 更改日期
+
     # 点赞数
+
+class Comments(models.Model):
+    '''
+    文章评论
+    '''
+    pass
+
+    # 评论id
+
+    # 用户id
+
+    # 评论内容
+
+    # 点赞数
+
+    # 评论日期
+
+
 
