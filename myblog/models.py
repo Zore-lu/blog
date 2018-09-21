@@ -1,9 +1,40 @@
 from django.db import models
 
 # Create your models here.
+# https://zhangjia.tv/852.html
+
+class User(models.Model):
+    '''
+    用户信息
+    '''
+    pass
+    # 用户id
+
+    # 用户ip
+
+    # 用户名
+
+    # 用户密码
+
+    # 用户邮箱
+
+    # 用户头像
+
+    # 用户等级
+
+    # 用户权限
+
+    # 注册时间
+
+    # 用户生日
+
+    # 用户手机号
+
 
 class Articles(models.Model):
-    # https://zhangjia.tv/852.html
+    '''
+    博客信息
+    '''
 
     pass
     # 博客id
@@ -21,3 +52,4 @@ class Articles(models.Model):
     # 发表日期
 
     # 点赞数
+
